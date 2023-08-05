@@ -1,0 +1,7 @@
+# для запуска проекта с указанием атрибутов:
+
+# либо запуск контейнера из cmd
+docker run -v /home/kenny/docker/py/:/data py:1.0 python3 /data/scan_http.py sendhttp -t "https://google.com" -m GET
+
+# либо через docker-compose build и docker-compose up
+
